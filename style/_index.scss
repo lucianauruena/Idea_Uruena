@@ -1,0 +1,15 @@
+.navbar-collapse {
+  align-items: center;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  -webkit-transition: color 1s linear;
+  transition: color 1s linear;
+
+  .nav-link:hover {
+    color: #9b5de5;
+  }
+}

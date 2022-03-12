@@ -1,0 +1,88 @@
+@media screen and (max-width: 850px) {
+  form {
+    display: block;
+    width: 100%;
+    min-width: 15rem;
+  }
+  .row {
+    padding: 2rem 1rem 1rem 0rem;
+  }
+}
+
+.contacto-principal {
+  text-align: center;
+  margin-top: 50px;
+  margin: 2rem 1rem 1rem 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.titulo-contacto {
+  font-weight: 800;
+  background: linear-gradient(#ff70a6, #ffd670);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 1rem 1rem 1rem;
+  flex: 1;
+  .col {
+    margin: 1rem;
+    flex: 1;
+  }
+}
+
+form {
+  max-width: 35rem;
+  min-width: 25rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+input {
+  margin-bottom: 2rem;
+  width: 100%;
+  outline: none;
+  border: 2px solid coral;
+  padding: 1rem;
+}
+
+input,
+textarea {
+  margin-bottom: 2rem;
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid coral;
+  padding: 1rem;
+}
+
+label,
+.contacto-principal {
+  font-family: "Montserrat", sans-serif;
+}
+
+.contacto-principal {
+  text-align: center;
+}
+
+.boton {
+  width: 8rem;
+  border: solid coral;
+  height: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  border-radius: 10px;
+
+  .boton:hover {
+    background-color: coral;
+    color: white;
+  }
+}

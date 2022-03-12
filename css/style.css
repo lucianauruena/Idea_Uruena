@@ -1,0 +1,385 @@
+.navbar-collapse {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  -webkit-transition: color 1s linear;
+  transition: color 1s linear;
+}
+
+.nav-link .nav-link:hover {
+  color: #9b5de5;
+}
+
+.footer-basic {
+  padding: 40px 0;
+  background-color: #fadde1;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a a:hover {
+  opacity: 1;
+}
+
+.footer-basic ul a a:hover li {
+  padding: 0 10px;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: px;
+  padding-top: 50px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+.fa-instagram {
+  color: #af4d98;
+}
+
+.fa-facebook {
+  color: #d66ba0;
+}
+
+.fa-at {
+  color: #e5a9a9;
+}
+
+.fa-twitter {
+  color: #f4e4ba;
+}
+
+.texto__adopta {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.texto__adopta_1 {
+  font-weight: 800;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff70a6), to(#ffd670));
+  background: linear-gradient(#ff70a6, #ffd670);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.card__adopta {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 6.5rem;
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+.card {
+  padding: 1rem;
+  margin: 1rem;
+  -webkit-box-shadow: #555bff 0px 0px 0px 3px, #1fc11b 0px 0px 0px 6px, #ffd913 0px 0px 0px 9px, #ff9c55 0px 0px 0px 12px, #ff5555 0px 0px 0px 15px;
+          box-shadow: #555bff 0px 0px 0px 3px, #1fc11b 0px 0px 0px 6px, #ffd913 0px 0px 0px 9px, #ff9c55 0px 0px 0px 12px, #ff5555 0px 0px 0px 15px;
+}
+
+.button-adopt {
+  background-color: #af4d98;
+  border: 0 solid #e5e7eb;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1.75rem;
+  padding: 0.75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  -webkit-text-decoration: none #000000 solid;
+          text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+
+.button-adopt .button-adopt:focus {
+  outline: 0;
+}
+
+.button-adopt .button-adopt:focus .button-adopt:after {
+  content: "";
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-adopt .button-adopt:focus .button-adopt:after .button-adopt:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+.button-adopt .button-adopt:focus .button-adopt:after .button-adopt:hover:after a:hover {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .button-adopt {
+    padding: 0.75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  form {
+    display: block;
+    width: 100%;
+    min-width: 15rem;
+  }
+  .row {
+    padding: 2rem 1rem 1rem 0rem;
+  }
+}
+
+.contacto-principal {
+  text-align: center;
+  margin-top: 50px;
+  margin: 2rem 1rem 1rem 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.titulo-contacto {
+  font-weight: 800;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff70a6), to(#ffd670));
+  background: linear-gradient(#ff70a6, #ffd670);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem 1rem 1rem 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.row .col {
+  margin: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+form {
+  max-width: 35rem;
+  min-width: 25rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+input {
+  margin-bottom: 2rem;
+  width: 100%;
+  outline: none;
+  border: 2px solid coral;
+  padding: 1rem;
+}
+
+input,
+textarea {
+  margin-bottom: 2rem;
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid coral;
+  padding: 1rem;
+}
+
+label,
+.contacto-principal {
+  font-family: "Montserrat", sans-serif;
+}
+
+.contacto-principal {
+  text-align: center;
+}
+
+.boton {
+  width: 8rem;
+  border: solid coral;
+  height: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  border-radius: 10px;
+}
+
+.boton .boton:hover {
+  background-color: coral;
+  color: white;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+  text-decoration: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.conocenos__texto {
+  font-size: 40px;
+}
+
+.h1__header {
+  font-size: 70px;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff70a6), to(#ffd670));
+  background: linear-gradient(#ff70a6, #ffd670);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.button-27 {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #af4d98;
+  border: 2px solid #af4d98;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  will-change: transform;
+  width: 13rem;
+  margin-left: 210px;
+  margin-bottom: 75px;
+  margin-top: 20px;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.button-27:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+/* ------------ NOSOTROS ----------------- */
+.h1__nosotros {
+  font-weight: 800;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff70a6), to(#ffd670));
+  background: linear-gradient(#ff70a6, #ffd670);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+/*# sourceMappingURL=style.css.map */
